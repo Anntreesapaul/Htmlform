@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Sign up Form</title> 
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<form name="form" method="post">
+<table width="20%" bgcolor="34b7c1" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>Sign Up</b></font></center></td>
+</tr>
+
+<tr>
+<td>User id:</td>
+<td><input type="text" size=25 name="name" minlength="1" id="user"></td>
+</tr>
+
+<tr>
+<td>Fullname:</td>
+<td><input type="text" size=25 name="name" minlength="1" id="name"></td>
+</tr>
+
+<tr>
+<td>Phone:</td>
+<td><input type="tel" size=25 name="phone" id="phone"></td>
+</tr>
+
+<tr>
+   <td><LABEL for="gender">Gender:<sup style="color:#F00"></sup> </LABEL></td> <td><INPUT type="radio" name="gender" value="Male" id="male"> Male
+   <INPUT type="radio" name="gender" value="Female" id="female"> Female</td><td width="200px"></td>
+ </tr>
+
+ <tr>
+<td>Address:</td>
+<td><textarea name="text" cols="25" rows="10" minlength="1" maxlength="200" id="address"></textarea></td>
+</tr>
+
+
+<tr>
+<td>Email:</td>
+<td><input type="email" size=25 name="email" id="email"></td>
+</tr>
+
+<tr></tr>
+<tr></tr>
+
+<tr>
+<td><INPUT type="reset"></td>
+<td></td>
+<td><input type="submit" onclick="" value="SignUp" name='submit' id="submit"></td>
+ </tr>
+
+</table>
+</form>
+<h2>Stored Values :</h2>
+<div class="row">
+	<table>
+		<tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionid">User id : </label></td>
+                <td><div class="col-sm-10" id="sessionid"></div></td>
+        </tr>
+        <tr>
+            
+                <td><label class="col-sm-2 col-form-label" for="sessionName">Fullname :</label></td>
+                <td><div class="col-sm-10" id="sessionName"></div></td>
+        </tr>
+        <tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionPhone">Phone :</label></td>
+                <td><div class="col-sm-10" id="sessionPhone"></div></td>
+        </tr>
+        <tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionGender">Gender :</label></td>
+                <td><div class="col-sm-10" id="sessionGender"></div></td>
+        </tr>
+        <tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionAddress">Address :</label></td>
+                <td><div class="col-sm-10" id="sessionAddress"></div></td>
+        </tr>
+        <tr>
+                <td><label class="col-sm-2 col-form-label" for="sessionEmail">Email :</label></td>
+                <td><div class="col-sm-10" id="sessionEmail"></div></td>
+        </tr>
+            
+ </table>          
+</div>
+</body>
+</html>
